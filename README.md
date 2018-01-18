@@ -1,1 +1,2 @@
 # Elevator-Simulation
+This project implements the simulation of an elevator. Different strategies for picking up and dropping off passengers were tested with the goal of minimizing the 95th percentile simulated travel time. The 95th percentile was chosen as the metric to minimize as opposed to just the average as minimizing the average may have led to a strategy that worked extremely well for passengers on lower floors, but almost totally failed for passengers on top floors of the building.
